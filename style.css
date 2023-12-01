@@ -11,7 +11,7 @@ body {
     color: white;
 }
 
-.header-container {
+.header-container, .second-container {
     display: flex;
     flex-direction: column;
     padding: 16px 120px 60px 120px;
@@ -75,4 +75,35 @@ button {
     padding: 8px 32px;
     text-align: center;
     margin: 16px 0px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin: 36px 0px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+.box {
+    border: 5px solid #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+    border-radius: 12px;
 }
