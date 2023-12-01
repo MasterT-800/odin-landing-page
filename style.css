@@ -11,7 +11,7 @@ body {
     color: white;
 }
 
-.header-container, .second-container, .third-container {
+.header-container, .second-container, .third-container, .fourth-container {
     display: flex;
     flex-direction: column;
     padding: 16px 120px 60px 120px;
@@ -127,4 +127,25 @@ button {
 
 .author {
     margin-right: 96px;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: #F9FaF8;
+    margin: 64px;
+    padding: 48px 96px;
+}
+
+.call-head {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-container button {
+    color: #F9FaF8;
+    border: 1px solid white;
 }
