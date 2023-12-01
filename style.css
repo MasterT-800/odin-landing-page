@@ -149,3 +149,10 @@ button {
     color: #F9FaF8;
     border: 1px solid white;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
